@@ -1,0 +1,12 @@
+{
+    "mcpServers": {
+        "shell-server": {
+            "command": "E:/mcp_servers_Course/shellServer/.venv/Scripts/python.exe",
+            "args": ["E:/mcp_servers_Course/shellServer/main.py"]
+        },
+        "docker-shell": {
+            "command": "docker",
+            "args": ["run", "-i", "--rm", "shellserver-app"]
+        }
+    }
+}
